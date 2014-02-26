@@ -4,7 +4,8 @@
 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <style>
 <!-- put a border around the svg element so we can see the coordinate system better. -->
-svg { border: solid black 1px; }
+svg { border: solid black 1px;}
+
 </style>
 </head>
 <body>
@@ -13,7 +14,7 @@ svg { border: solid black 1px; }
 <div id="canvas"></div>
 
 <script>
-
+  d3.select("#canvas").append("svg").attr("height", 80%).attr("width", 80%);
 </script>
 </body>
 </html>
